@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #209becaf;
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #dd9260;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 30%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff77;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+}
+
+.form-devolver {
+    width: 100px;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+input[type="text"], input[type="email"], select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 55px;
+}
+
+button {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+.boton-devolver {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.boton-devolver:hover {
+    background-color: #0056b3;
+}
+
+.mensaje-exito {
+    width: 50%;
+    color: #28a745;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px; 
+    border: 1px solid #28a745;
+    background-color: #d4edda;
+    border-radius: 5px;
+}
+
+.mensaje-error {
+    width: 50%;
+    color: #dc3545;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #dc3545;
+    background-color: #f8d7da;
+    border-radius: 5px;
+}
+
+.mensaje-info {
+    width: 50%;
+    color: #007bff;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #007bff;
+    background-color: #cce5ff;
+    border-radius: 5px;
+}
